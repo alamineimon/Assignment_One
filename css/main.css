@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* color: rgb(44, 44, 44); */
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+/* ______________________________________________________________________________________Header Start */
+.header{
+    height: 38rem;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/donation14.jpg);
+    background-size: cover;
+}
+.header h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 9rem;
+}
+.header p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem 0;
+    margin-bottom: 5rem;
+}
+.donate-butn{
+    padding: .7rem 2rem;
+    font-size: 1rem;
+    /* margin: 3rem 0 0 36.5rem ; */
+    margin-left: 36.5rem;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(228, 227, 227);
+    text-decoration: none;
+    background-color: deepskyblue;
+}
+/* ______________________________________________________________________________________Header End */
+
+
+/* ______________________________________________________________________________________Donate-today Start */
+.donate-today{
+    /* width: 80%; */
+    text-align: center;
+    align-items: center;
+    padding: 7rem 1rem;
+    justify-content: center;
+    height: 34rem;
+    /* background-color: aqua; */
+}
+.donate-today h1{
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-bottom: 2.2rem;
+}
+.donate-today p{
+    color: gray;
+    margin-bottom: 2rem;
+}
+.donate-item{
+    display: flex;
+    padding: 1rem 1.5rem;
+    margin-left: 11rem;
+}
+.item{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 0.4rem;
+    margin: 0 2rem;
+    background-color: rgb(235, 231, 231);
+}
+.item h1{
+    margin-top: 2.6rem;
+    color: gray; text-align: center;
+    font-size: 1.1rem;
+}
+.item-red{
+    color: crimson;
+    border: 2px solid orangered;
+    background-color: rgb(235, 197, 186);
+}
+.item-red h1{
+    color: red;
+}
+.other{
+    width: 38rem;
+    margin-top: 4rem;
+    margin-left: 22rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+}
+.input-area{
+    word-spacing: .6rem;
+    font-size: 1rem;
+    padding-bottom: .8rem;
+    text-decoration: none;
+    border-style: none;
+}
+.donate{
+    padding: .7rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    font-weight: 400;text-align: center;
+    color: rgb(228, 227, 227);
+    text-decoration: none;
+    background-color: deepskyblue;
+}
+/* ______________________________________________________________________________________Donate-today End */
+
+
+/* ______________________________________________________________________________________Donate-plan Start */
+.donate-plan{
+    text-align: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    justify-content: center;
+    height: 34rem;
+}
+.donate-plan h1{
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-bottom: 2.2rem;
+}
+.donate-plan p{
+    color: gray;
+    margin-bottom: 3rem;
+}
+.donate-system-items{
+    display: flex;
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 3.2rem;
+}
+.doant-item{
+    border-radius: 0.6rem;
+    /* padding: 1rem 2rem 1rem 0; */
+    padding: 0 1rem;
+    margin: 0 2rem;
+    height: 20rem;
+    width: 33%;
+    background-color: #edf5f6;
+}
+.doant-item img{
+    height: 3rem;
+    margin-top: 2rem;
+    margin-left: -14rem;
+    /* margin-left: -12rem; */
+    margin-bottom: 2.2rem;
+}
+.doant-item h1{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    text-align: left;
+}
+.doant-item p{
+    text-align: left;
+    margin-top: -1.2rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    text-align: justify;
+}
+.color1{
+    background-color: #ffeeee;
+}
+.color2{
+    background-color: #fff4d6;
+}
+/* ______________________________________________________________________________________Donate-plan End */
+
+
+/* ______________________________________________________________________________________Theie-live Start */
+
+.ther-live{
+    margin-top: 5rem;
+    margin-left: 6rem;
+    padding: 0;
+}
+.there-live-top{
+    display: flex;
+    height: 28rem;
+    width: 80%;
+}
+.their-live-top-left{
+    height: 25rem;
+    margin: 0 4rem;
+    width: 50%;
+    padding: 1rem ;
+}
+.their-live-top-right{
+    height: 27rem;
+    width: 50%;
+    overflow: hidden;
+}
+.their-live-top-right img{
+    height: 30rem;
+}
+.their-live-top-left h1{
+    font-size: 2rem;
+    color: black;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.their-live-top-left p{
+    text-align: left;
+    font-size: 1rem;
+    color: gray;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+.contibute-bttn{
+    padding: .7rem 2rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    border-radius: .3rem;
+    font-weight: 600;text-align: center;
+    color: rgb(228, 227, 227);
+    text-decoration: none;
+    background-color: deepskyblue;
+}
+.there-live-bottom{
+    display: flex;
+    height: 28rem;
+    width: 80%;
+    margin-top: 3rem;
+}
+.their-live-bottom-left{
+    height: 25rem;
+    margin: 0 4rem;
+    width: 48%; 
+    overflow: hidden;
+}
+.their-live-bottom-left img{
+    height: 30rem;
+}
+.their-live-bottom-right{
+    height: 23rem;
+    width: 45%;
+    padding: 1rem;
+}
+.their-live-bottom-right h1{
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: black;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.their-live-bottom-right p{
+    text-align: left;
+    color: gray;
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+/* ______________________________________________________________________________________Theie-live End */
+
+
+/* ______________________________________________________________________________________Ready-To-Start Start */
+
+.ready-to-start{
+    height:25rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(247, 243, 243);
+}
+.ready-to-top{
+    padding-top: 2rem;
+    width: 50%;
+}
+.ready-to-top h1{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.ready-to-button{
+    padding: .8rem 2rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    border-radius: .3rem;
+    font-weight: 600;text-align: center;
+    color: rgb(228, 227, 227);
+    text-decoration: none;
+    margin: 2.5rem 2rem 1rem 0;
+    background-color: deepskyblue;
+}
+.ready-to-button-color{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.ready-to-image img{
+    margin: 2rem 2rem 0 -2rem ;
+    height: 12rem;
+    
+}
+/* ______________________________________________________________________________________Ready-To-Start End */
+
+
+
+/* ______________________________________________________________________________________Ready-to-Update Start */
+.my-update{
+    height: 20rem ;
+    padding: 3rem 0;
+    text-align: center;
+}
+.my-update h1{
+    font-size: 2.2rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.my-update p{
+    font-size: 1rem;
+    color: gray;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.input-areas{
+    height: 5.5rem;
+    width: 40rem;
+    border-radius: 0.4rem;
+    margin-left: 21rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    background-color: rgb(174, 174, 236);
+}
+.input-area-input {          /*------------------------------------------------------------------------ */
+    border: none;
+    height: 2.5rem;
+    width: 30%;
+    padding-left: 11rem;
+    border-radius: 0.2rem 0 0 0.2rem;
+} 
+.submit-btton{
+    padding: .75rem 2rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    border-radius:0 .2rem 0.2rem 0 ;
+    font-weight: 600;text-align: center;
+    color: rgb(228, 227, 227);
+    text-decoration: none;
+    background-color: deepskyblue;
+}
+/* ______________________________________________________________________________________Ready-to-Update End */
+
+/* ______________________________________________________________________________________Footer Start */
+
+.footer{
+    height: 8rem;
+    text-align: center;
+    padding: 2rem 0 0 0 ;
+    background-color: rgb(66, 66, 209);
+}
+.footer h1{
+    font-size: 2.8rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.footer p{
+    font-size: 1.5rem;
+    color: rgb(184, 181, 181);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+/* ______________________________________________________________________________________Footer End */
